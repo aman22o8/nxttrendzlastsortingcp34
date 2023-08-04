@@ -1,0 +1,50 @@
+.filters-group-container {
+  /* margin-top: 16px; */
+  margin-top: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    /* max-width: 350px; */
+    /* margin-top: 48px; */
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.mycate {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.cate_container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.category_button {
+  background-color: transparent;
+  border: 0px none;
+  font-size: 15px;
+  height: 25px;
+  width: 176px;
+  margin: 5px 0px;
+  cursor: pointer;
+  text-align: left;
+}
+.image_rating {
+  height: 25px;
+  width: 120px;
+}
+.clear_filter {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 25px;
+  width: 120px;
+  border: 1px solid #47d2eb;
+  color: #47d2eb;
+  cursor: pointer;
+}
